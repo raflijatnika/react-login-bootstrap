@@ -9,7 +9,7 @@ server.db = router.db
 
 const rules = auth.rewriter({
   users: 600,
-  posts: 640,
+  posts: 660,
 })
 
 server.use(middlewares)

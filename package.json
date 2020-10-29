@@ -6,14 +6,26 @@
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
-    "api": "nodemon --watch server/db.json server",
+    "api": "nodemon --watch server server/index.js",
     "lint": "eslint --ext .js,.jsx ./src"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@hookform/resolvers": "^1.0.0",
+    "axios": "^0.20.0",
+    "joi": "^17.3.0",
+    "js-cookie": "^2.2.1",
+    "localforage": "^1.9.0",
     "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "react-app-polyfill": "^2.0.0",
+    "react-dom": "^16.14.0",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^6.9.5",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.0",

@@ -1,4 +1,36 @@
 {
-  "users": [],
-  "posts": []
+  "users": [
+    {
+      "email": "admin@mail.com",
+      "password": "$2a$10$s1T4zn3b4hQeMrmELJUIiOqfmVbZPnaM7wyYBoShuwoqYsUgitTpC",
+      "id": 1
+    },
+    {
+      "email": "admin2@mail.com",
+      "password": "$2a$10$bWB.Zj5FAqkixj2Ffz2aC.u1p/FjVRybZBCl02ZNOXI.TzMCsUzc6",
+      "id": 2
+    }
+  ],
+  "posts": [
+    {
+      "title": "Learn Laravel",
+      "author": "Rafli Jatnika",
+      "id": 1
+    },
+    {
+      "title": "Learn PHP",
+      "author": "Fakhri",
+      "id": 2
+    },
+    {
+      "title": "jbhjb",
+      "author": "jbjhb",
+      "id": 3
+    },
+    {
+      "title": "Buku Deui",
+      "author": "Aku",
+      "id": 4
+    }
+  ]
 }

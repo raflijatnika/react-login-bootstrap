@@ -1,10 +1,9 @@
-import React, { Fragment } from 'react'
+/* eslint-disable import/named */
+import React from 'react'
 
 function App() {
   return (
-    <Fragment>
-      START HERE
-    </Fragment>
+    <div>App</div>
   )
 }
 
