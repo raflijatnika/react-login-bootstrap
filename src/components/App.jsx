@@ -1,9 +1,18 @@
 /* eslint-disable import/named */
 import React from 'react'
+import { Provider } from 'react-redux'
+import { PersistGate } from 'redux-persist/integration/react'
+import { store, persistor } from '../store'
+
+import Base from './Base'
 
 function App() {
   return (
-    <div>App</div>
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
+        <Base />
+      </PersistGate>
+    </Provider>
   )
 }
 

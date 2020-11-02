@@ -1,36 +1,21 @@
 {
   "users": [
     {
-      "email": "admin@mail.com",
-      "password": "$2a$10$s1T4zn3b4hQeMrmELJUIiOqfmVbZPnaM7wyYBoShuwoqYsUgitTpC",
+      "email": "h.jatmika6@gmail.com",
+      "password": "$2a$10$TdMMCs1ickr/6mx67HJF0eOENGxBJrUN1kbphhtAwsBCp1wYZGRCS",
       "id": 1
     },
     {
-      "email": "admin2@mail.com",
-      "password": "$2a$10$bWB.Zj5FAqkixj2Ffz2aC.u1p/FjVRybZBCl02ZNOXI.TzMCsUzc6",
+      "email": "admin@mail.com",
+      "password": "$2a$10$zBTt3pWRwelqfEHkP/ieI.sFecqKpf0AEgsi2/JOpVNDo.2S6sY0i",
       "id": 2
     }
   ],
   "posts": [
     {
-      "title": "Learn Laravel",
+      "title": "Laravel Begineer",
       "author": "Rafli Jatnika",
       "id": 1
-    },
-    {
-      "title": "Learn PHP",
-      "author": "Fakhri",
-      "id": 2
-    },
-    {
-      "title": "jbhjb",
-      "author": "jbjhb",
-      "id": 3
-    },
-    {
-      "title": "Buku Deui",
-      "author": "Aku",
-      "id": 4
     }
   ]
 }
