@@ -19,7 +19,6 @@ export function loginUser(params) {
   return api.post('/login', params).then(
     (response) => {
       const { data } = response
-      console.log(data)
       User.logIn(data.accessToken)
       return true
     },
@@ -34,3 +33,16 @@ export function createPost(params) {
     },
   })
 }
+
+// export function getBooks() {
+//   return api.get('/posts', {
+//     headers: {
+//       Authorization: `Bearer ${User.getToken()}`,
+//     },
+//   }).then(
+//     (response) => {
+//       const { data } = response
+//       return data
+//     },
+//   )
+// }
